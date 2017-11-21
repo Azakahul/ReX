@@ -7,7 +7,7 @@
     "build": "webpack -d",
     "start:dev": "webpack-dev-server",
     "prestart": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "browserslist": [
     "> 1%"
@@ -46,6 +46,7 @@
     "classnames": "^2.2.5",
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.5",
+    "mocha": "^4.0.1",
     "postcss-cssnext": "^3.0.2",
     "postcss-load-config": "^1.2.0",
     "postcss-loader": "^2.0.8",
