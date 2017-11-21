@@ -4,8 +4,14 @@
   "description": "This is an application used to facilitate natural roleplay and ease of use for the Edge of the Empire roleplaying game.",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -d",
+    "start:dev": "webpack-dev-server",
+    "prestart": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "browserslist": [
+    "> 1%"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Azakahul/ReX.git"
@@ -23,5 +29,27 @@
   "bugs": {
     "url": "https://github.com/Azakahul/ReX/issues"
   },
-  "homepage": "https://github.com/Azakahul/ReX#readme"
+  "homepage": "https://github.com/Azakahul/ReX#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-load-config": "^1.2.0",
+    "postcss-loader": "^2.0.8",
+    "style-loader": "^0.19.0",
+    "webpack-dev-server": "^2.9.4"
+  }
 }
