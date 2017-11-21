@@ -1,0 +1,27 @@
+{
+  "name": "rex",
+  "version": "0.0.1",
+  "description": "This is an application used to facilitate natural roleplay and ease of use for the Edge of the Empire roleplaying game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azakahul/ReX.git"
+  },
+  "keywords": [
+    "star",
+    "wars",
+    "edge",
+    "empire",
+    "assistant",
+    "manager"
+  ],
+  "author": "Scott Rotvold, Travis Wiertzema",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azakahul/ReX/issues"
+  },
+  "homepage": "https://github.com/Azakahul/ReX#readme"
+}
